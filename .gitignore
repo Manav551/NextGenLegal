@@ -1,0 +1,26 @@
+# Python Runtime & Virtual Env
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Node/React
+node_modules/
+dist/
+build/
+
+# Secret Keys (DO NOT PUSH THESE)
+.env
+backend/.env
+frontend/.env
+
+# Local Storage/Runtime Artifacts (Keep the folders, hide the files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/vector_store/*
+!backend/vector_store/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
